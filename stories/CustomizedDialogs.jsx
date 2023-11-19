@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import Dialog from '@mui/material/Dialog';
@@ -31,7 +30,8 @@ export const CustomizedDialogs = () => {
     setOpen(false);
   };
 
-  return <>
+  return (
+  <>
     <React.Fragment>
       <Button variant="outlined" onClick={handleClickOpen}>
         Open dialog
@@ -80,5 +80,6 @@ export const CustomizedDialogs = () => {
       </BootstrapDialog>
     </React.Fragment>
   </>
+  )
 }
 

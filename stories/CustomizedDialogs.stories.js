@@ -1,6 +1,6 @@
 import { CustomizedDialogs } from './CustomizedDialogs'
 export default {
-    title: 'Dialog',
+    title: 'Example/CustomizedDialogs',
     component: CustomizedDialogs,
     
 };
